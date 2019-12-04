@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6D1F1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ImageView_logo"
+        android:elevation="6dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bgkonten"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        />
+
+    <LinearLayout
+        android:background="@drawable/bgkonten"
+        android:id="@+id/LinearLayout_mykonten"
+        android:orientation="vertical"
+        android:elevation="4dp"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="Title"
+            android:textColor="#343434"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="30dp"
+            android:layout_marginTop="22dp"
+            android:text="Content"
+            android:textColor="#343434"
+            android:textSize="22sp"
+            />
+
+        <Button
+            android:id="@+id/Button_Close"
+            android:background="#D6D1F1"
+            android:layout_width="220dp"
+            android:layout_height="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="15dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/LinearLayout_overbox"
+        android:elevation="3dp"
+        android:background="@drawable/overbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Button_Active"
+        android:background="#ffffff"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        />
+
+</RelativeLayout>
